@@ -16,8 +16,8 @@ body{
 .flex{
   display: flex;
   border-radius: 35px;
-  height: 10vh;
-  width: 70%;
+  height: 8vh;
+  width: 60%;
 
   border: 1px solid white;
   background-color: white;
@@ -28,11 +28,11 @@ body{
 .form-control{
   border-radius: 35px;
   width: 50%;
-  height: 10vh;
+  height: 8vh;
   
 }
 .date{
-  height: 10vh;
+  height: 8vh;
   border-radius: 35px;
   width: 30%;
   
@@ -40,11 +40,19 @@ body{
 }
 
 .flex .btn{
-  margin-top: 1.5vh ;
+  margin-top: 0.5vh ;
   height: 7vh;
-  border-radius: 25px;
-  width: 20%;
+  border-radius: 35px;
+  width: 19%;
   background-color: #cf3c5c;
   
+}
+
+@media screen and (max-width:480px){
+
+  .flex{
+    margin-left: 5%;
+    width: 90%;
+  }
 }
 

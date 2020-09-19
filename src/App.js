@@ -111,7 +111,7 @@ if(t){
   return (<div className="container" >
       
   <div class="App"  > 
-  <h1 >My To Do List</h1> 
+  <h2 >My To Do List</h2> 
   
    <div className="flex">
    <input className="form-control" id="task" type="text" placeholder="Title"></input>
