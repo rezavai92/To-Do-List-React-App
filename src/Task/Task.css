@@ -7,3 +7,12 @@ span:hover{
 
 }
 
+
+.list-group-item{
+
+    
+    text-align: center !important;
+    margin: 1%;
+    border-radius: 35px !important;
+}
+
